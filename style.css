@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+
+@font-face {
+    font-family: 'Sofia';
+    src: url('./assets/SofiaProSemiBold.ttf'); 
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back-pink{
+    background-color: #EFA3A3;
+}
+
+.text-color{
+    font-family:Sofia;
+    font-size:1rem;
+    letter-spacing:0.5px;
+    font-style:normal;
+    font-weight:400;
+    color: white;
+}
+.bg-pink{
+    background-color: #FCECE6;
+}
+.titulo{
+    font-family: 'Poppins', sans-serif;
+
+        font-size:3rem;
+        letter-spacing:0;
+        font-style:normal;
+        font-weight:500;
+        color: grey
+}
+.titulo2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0;
+    font-style: normal;
+    font-weight:100;
+    color: grey
+}
+.imagen{
+    width: 30rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+}
+
+
+.footerBtn{
+    border: 2px solid;
+    border-color: #EFA3A3;
+    font-weight: 500;
+}
+.imagenCarru{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    border-radius: 50%;
+}
+.iconsRedes{
+    width: 3rem;
+    margin: 1rem;
+}
+.middle{
+    margin-top: 50%;
+}
